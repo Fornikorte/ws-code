@@ -159,3 +159,7 @@ p {
         display: none;
     }
 }
+
+.error {
+    color: #FF0000;
+}

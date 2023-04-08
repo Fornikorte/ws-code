@@ -107,15 +107,15 @@
         <p>Av. Independencia #5994</p>
         <p>+56938259817</p>
         <h4>Contactanos</h4>
-        <form>
+        <form id="formulario-contacto">
           <div class="form-group">
-            <input class="form-control" type="text" placeholder="Nombre"></input>
+            <input id="nombre" name="nombre" class="form-control" type="text" placeholder="Nombre" required></input>
           </div>
           <br>
           <div class="form-group">
-            <input class="form-control" type="Mail" placeholder="Correo"></input>
+            <input id="correo" name="correo" class="form-control" type="email" placeholder="Correo" required></input>
           </div>
-          <button type="button" class="btn btn-primary futuro">Enviar</button>
+          <button class="btn btn-primary">Enviar</button>
         </form>
         <br>
         <figure>
@@ -124,6 +124,7 @@
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
