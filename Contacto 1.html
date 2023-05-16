@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+
+    <form id="formulario-contacto" action="https://formsubmit.co/a.paineman@duocuc.cl" method="POST" >   
+        <a href="Caso 1.html">Inicio</a>
+         <h2>Consultas</h2>
+
+        <div class="input-group">   
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" placeholder="Nombre" required>
+            <label for="phone">Telefono</label>
+            <input type="tel" name="phone" id="phone" placeholder="Telefono" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <label for="message">Mensaje</label>
+            <textarea name="message" id="message" cols="25" rows="5" placeholder="Mensaje"></textarea>
+            <div class="form-txt">
+                <a href="#">Politicas de Privacidad</a>
+                <a href="#">Teminos y Condiciones</a>
+            </div>
+            <input class="btn" type="submit" value="Enviar">
+            
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/Caso%201.html">
+            <input type="hidden" name="_captcha" value="false">
+        </div>
+    </form>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

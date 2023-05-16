@@ -9,12 +9,15 @@ $("#formulario-contacto").submit(function(e){
 $(document).ready(function() { $("#formulario-contacto").validate(
     {
         messages:{
-            nombre:{
+            name:{
                 required:"*Campo obligatorio"
             },
-            correo:{
+            phone:{
+                required:"*campo obligatorio"
+            },
+            email:{
                 required:"*Campo obligatorio"
-            }
+            },
         }
     }
 ); });
